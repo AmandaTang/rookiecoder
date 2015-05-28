@@ -1,0 +1,14 @@
+---
+layout: default
+title: RookieCoder-just Amanda's blog
+---
+
+<ul class="post-list">
+    {% for post in site.post %}
+        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }} </a> <br>
+        {{ post.date | date: "%F" }} <br>
+        {{ post.category }} <br>
+        {{ post.excerpt }}
+    {% endfor %}
+</ul>
+
