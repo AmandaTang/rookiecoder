@@ -7,10 +7,11 @@ title: RookieCoder
 
 <ul class="post-list">
     {% for post in site.post %}
-        <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }} </a> <br>
-        {{ post.date | date: "%F" }} <br>
-        {{ post.category }} <br>
-        {{ post.excerpt }}
+         <li>{{ post.date | date_to_string }} 
+            <a href="{{ site.baseurl }}{{ post.url }}">
+               {{ post.title }}
+            </a>
+         </li>
     {% endfor %}
 </ul>
 
