@@ -1,17 +1,48 @@
 <html>
   <head>
     <meta charset='utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <link rel="stylesheet" href="theme/google-code-prettify/prettify.css">
+    <script src="theme/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("pre").addClass("prettyprint");
+        prettyPrint();
+      });
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
     <title>{{ page.title }}</title>
   <head>
   <body>
     <header>
+      <div class="inner">
+       <h1>{{page.title}}</h1>
+       <h2>{{page.subtitle}}</h2>
+      </div>
     </header>
+    
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          {{ content }}
+        </section>
+      </div>
+    </div>
 
     <aside>
     </aside>
 
     <article>
-      {{ content }}
     <article>
 
     <footer>

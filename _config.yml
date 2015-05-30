@@ -1,5 +1,7 @@
 baseurl: /rookiecoder
 markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 safe: false
 highlighter: true
 excerpt_separator: "\n\n\n"
