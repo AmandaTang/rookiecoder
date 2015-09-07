@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Amanda's Resume
+title: 唐羽‘s 简历
 category: coding
 comments: true
 ---
 <div>
 <img src="images/IMG_0693.jpg" width=130 style="float:right;display:block;clear:both;"></src>
-<lable style="float:left;font-size:40px">唐羽‘s 简历</lable>
 </div>
 </br>
 #####<strong style="background:lightgray">联系方式
