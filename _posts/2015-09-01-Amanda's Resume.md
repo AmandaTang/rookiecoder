@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Welcome to RookieCoder
-category: gossip
+title: Amanda's Resume
+category: coding
 comments: true
 ---
 <div>
 <img src="images/IMG_0693.jpg" width=130 style="float:right;display:block;clear:both;"></src>
 <lable style="float:left;font-size:40px">唐羽‘s 简历</lable>
 </div>
+</br>
 #####<strong style="background:lightgray">联系方式
 - 手机：18569510464 （湖南长沙）
 - Email：amandatang333@outlook.com
